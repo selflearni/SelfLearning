@@ -1,6 +1,15 @@
+int mul (int a, int b);
+
 int main ()
 {
  a=10;
  b=20;
+ c=mul (a,b);
+ cout << c << endl;
  return 0;
+}
+
+int mul (int a, int b)
+{
+ return a*b;
 }
