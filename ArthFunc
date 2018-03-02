@@ -1,4 +1,5 @@
 int sub (int a, int b);
+int add (int a, int b);
 
 int main ()
 {
@@ -6,10 +7,17 @@ int main ()
  b=20;
  c=sub (a,b);
  cout << c << endl;
+ c=add (a,b);
+ cout << c << endl;
  return 0;
 }
 
 int sub (int a, int b)
 {
  return a-b;
+}
+
+int add (int a, int b)
+{
+ return a+b;
 }
