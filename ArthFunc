@@ -1,3 +1,4 @@
+int div (int a, int b);
 int mul (int a, int b);
 int sub (int a, int b);
 int add (int a, int b);
@@ -6,6 +7,8 @@ int main ()
 {
  a=10;
  b=20;
+ c=div (a,b);
+ cout << c << endl;
  c=mul (a,b);
  cout << c << endl;
  c=sub (a,b);
@@ -13,6 +16,11 @@ int main ()
  c=add (a,b);
  cout << c << endl;
  return 0;
+}
+
+int div (int a, int b)
+{
+ return a/b;
 }
 
 int mul (int a, int b)
