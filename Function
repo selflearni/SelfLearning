@@ -3,18 +3,21 @@ int main ()
   a=10;
   b=20;
   c=a+b;
+  c=sum(a,b);
+  cout << c << endl;
+  c=sub(a,b);
   cout << c << endl;
  return 0;
  }
 
 int sum (int a, int b)
 {
-
+retun a+b;
 }
 
 int sub (int a, int b)
 {
-
+retun a-b;
 }
 int mul (int a,int b)
 {
