@@ -1,6 +1,15 @@
+int div (int a, int b);
+
 int main ()
 {
  a=10;
  b=20;
+ c=div (a,b);
+ cout << c << endl;
  return 0;
+}
+
+int div (int a, int b)
+{
+ return a/b;
 }
